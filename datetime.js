@@ -1,7 +1,7 @@
 angular.module("rc-datetime", [])
 
 // Create time string for given datetime in the format hh:mm:ss
-.filter("formatTime", ["utils", function(utils) {
+.filter("formatTime", function() {
     // Pad a given number with the given padChar until it reaches the desiredLength
     function pad(n, desiredLength, padChar) {
         n = n.toString();
@@ -23,7 +23,7 @@ angular.module("rc-datetime", [])
         var s = pad(datetime.getSeconds(), 2, '0');
         return h+":"+m+":"+s;
     };
-}])
+})
 
 // Create string for given datetime, where date is only shown if the given
 // datetime was before yesterday; otherwise, we show `yesterday` if the
