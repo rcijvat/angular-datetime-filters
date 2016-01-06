@@ -4,7 +4,7 @@
   "authors": [
     "R. Cijvat <robin.cijvat@monetdbsolutions.com>"
   ],
-  "description": "Filters that take a Javascript Date or a string that can be provided to a Date constructor, and format this into a good looking string. — Edit",
+  "description": "Filters that take a Javascript Date or a string that can be provided to a Date constructor, and format this into a good looking string.",
   "main": "datetime.js",
   "moduleType": [],
   "keywords": [
