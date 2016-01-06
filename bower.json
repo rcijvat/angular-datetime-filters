@@ -1,0 +1,18 @@
+{
+  "name": "datetime-filters",
+  "homepage": "https://github.com/rcijvat/angular-datetime-filters",
+  "authors": [
+    "R. Cijvat <robin.cijvat@monetdbsolutions.com>"
+  ],
+  "description": "Filters that take a Javascript Date or a string that can be provided to a Date constructor, and format this into a good looking string. — Edit",
+  "main": "datetime.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "filters",
+    "date",
+    "time",
+    "datetime"
+  ],
+  "license": "MIT"
+}
